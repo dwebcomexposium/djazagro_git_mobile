@@ -1,0 +1,197 @@
+/** MODIF BOUTON MA SELECTION **/
+@font-face {
+  font-family: 'icon-remove-add-trois';
+  src: url('https://m.djazagro.com/theme/djazagro_git_mobile/fonts/surchargefont/coeuraddremovetrois.woff') format('woff'), url('https://m.djazagro.com/theme/djazagro_git_mobile/fonts/surchargefont/coeuraddremovetrois.svg') format('svg'), url('https://m.djazagro.com/theme/djazagro_git_mobile/fonts/surchargefont/coeuraddremovetrois.eot') format("embedded-opentype"), url('https://m.djazagro.com/theme/djazagro_git_mobile/fonts/surchargefont/coeuraddremovetrois.ttf') format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+.mod-catal.mysel-hist-bar {
+    width:100%;
+    background-color: #ffffff !important;
+    padding: 0rem;
+
+}
+
+.mod-catal .block-title {
+    border: none !important;
+
+}
+
+.mod-catal.myselection {
+    background-color: #6d2361;
+    width: 80%;
+    border-radius: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 40px;
+}
+
+.mod-catal.myselection, .mod-catal.history {
+    margin-top: 30px !important;
+    padding: 0 0.6rem 1rem 0.5rem;
+    color: #ffffff;
+}
+.mod-catal .block-title:not(:first-child) {
+margin-top : 0;
+}
+
+
+/** MODIF CATALOGUE - MA SELECTION **/
+
+.mod-catal .modal {
+max-height:100%;
+}
+
+.mod-catal .mysel-modal-title .icon-catal-star-full{
+margin-top: 5px;
+font-size: 1.8rem;
+left:1rem;
+}
+#myselectionModal > div.mysel-modal-title > span.mysel-modal-title-txt{
+font-size: 23px;
+}
+
+.mod-catal .mysel-modal-title{
+position: relative;
+    color: #ffffff;
+ background: #ba9347;
+ border-bottom: 4px solid #755d2e;
+    padding: 12px 0 0.4rem 3.5rem;
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+#myselectionModal > div.mysel-type-container.mysel-product > p > a:nth-child(3) > span.pluriel{
+display:none;
+}
+
+.mod-catal .mysel-type-title{
+font-size:18px;
+}
+
+#myselectionModal > div.mysel-type-container.mysel-product > p > span > span{
+    font-size: 17px;
+    display: block;
+	    margin-top: -2px;
+}
+
+#myselectionModal > div.mysel-type-container.mysel-exposant > p > span > span{
+font-size: 17px;
+    display: block;
+	    margin-top: -2px;
+}
+
+#myselectionModal > div.mysel-type-container.mysel-brand > p > span > span{
+    font-size: 17px;
+    display: block;
+    margin-top: -2px;
+}
+.mod-catal .mysel-item-txt{
+padding-right: 3em;
+    font-size: 1.1rem;
+}
+
+.mod-catal .mysel-item-remove{
+    font-size: 2rem;
+color:#ba9347;
+}
+
+.mod-catal .mysel-container{
+background-color: #ffffff;
+color:#ba9347;
+padding: 0px 0px 0px 0px !important;
+}
+
+.mod-catal .mysel-modal-title .m-btn-to-close{
+    color: #ffffff;
+    margin-right: 1.3rem;
+}
+
+.mod-catal .mysel-item:not(:last-child), .mod-catal .hist-item:not(:last-child), .mod-catal .mysel-item:first-child, .mod-catal .hist-item:first-child {
+ border-bottom: 1px solid #;
+}
+.mod-catal .mysel-footer .btn-primary{
+display: inline-block;
+    width: auto;
+    border-bottom-color: #ffffff;
+    margin: 0 auto 1rem;
+    border: 1px solid #ba9347;
+    padding: 0.4em 1em;
+    border-radius: 18px;
+    font-size: 1.1rem;
+    color: #ba9347;
+    text-transform: none;
+    background-color: #ffffff;   
+font-weight: 700;
+}
+
+.mod-catal .mysel-footer .btn-primary .icon-catal{
+font-size:1rem;
+}
+
+div#container-myselection .mysel-type-container {
+    padding: 0 1.5rem 0 1.3rem;
+}
+
+.site-banner~.allows-over-stuck {
+    z-index: 9999;
+}
+
+
+.mod-catal .catal-ed-main-title {
+    color: #ba9347;
+}
+.mod-catal .catal-ed-group-title .catal-ed-fold-cmd {
+    color: #ba9347;
+}
+
+
+#myselectionModal.mysel-container.modal {
+    z-index: 9999;
+}
+
+.icon-catal-star-empty::before, .icon-catal-catal-star-empty::before {
+    content: "" !important;
+    display: block;
+    width: 25px;
+    color: blue;
+    height: 25px;
+    background-image: url(/theme/djazagro_git_mobile/img/coeur-add.svg);
+}
+
+.icon-star-delete::before, .icon-catal-star-delete::before {
+    content: "" !important;
+    display: block;
+    width: 25px;
+    height: 25px;
+    background-image: url(/theme/djazagro_git_mobile/img/coeur-remove.svg);
+}
+
+
+/** STYLE INDEX CATALOGUE **/
+
+
+.mod-catal .btn-primary.modalopen {
+    background-color: #ba9347;
+    border-color: #755d2e;
+}
+
+.mod-catal .modal-index .catal-results-index-alpha-list li.current span {
+    border-color: #51082c;
+    background: #6d2361;
+}
+.mod-catal .modal-index .catal-results-index-alpha-list li a {
+    border-color: #755d2e;
+    background: #ba9347;
+}
+
+.mod-catal .modal-index .catal-results-index-alpha-label {
+    border-bottom: 4px solid #755d2e;
+}
+.mod-catal .btn-primary:focus, .mod-catal .btn-primary:hover, .mod-catal .btn-primary:active {
+    background-color: #755d2e;
+    border-color: #ba9347;
+}
