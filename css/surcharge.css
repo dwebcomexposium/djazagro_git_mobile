@@ -228,6 +228,11 @@ html{
     text-transform:inherit;
     margin-bottom:1rem
 }
+@media screen and (max-width: 360px){
+    .refonte .edito-footer h3{
+        color:#2D2F30 !important
+    }
+}
 .refonte .edito-footer p{
     font-family:"lato-light",sans-serif;
     font-size:1.6rem;
@@ -487,7 +492,8 @@ html{
 }
 @media screen and (max-width: 360px){
     .refonte .landing .landing-content h1{
-        font-size:2.4rem
+        font-size:2.4rem;
+        margin-top:0 !important
     }
 }
 .refonte .landing .landing-content h1::before{
@@ -694,7 +700,8 @@ html{
 .refonte .pub{
     display:flex;
     justify-content:center;
-    background-color:#464646
+    background-color:#464646;
+    padding:2.5rem 2rem
 }
 .refonte .footer-contact .prefooter-wrapper{
     display:flex;
@@ -719,6 +726,11 @@ html{
 @media screen and (max-width: 480px){
     .refonte .footer-contact .prefooter-wrapper .prefooter-bloc{
         width:100%
+    }
+}
+@media screen and (max-width: 360px){
+    .refonte .footer-contact .prefooter-wrapper .prefooter-bloc{
+        border-bottom:1px solid #e8e8e8
     }
 }
 .refonte .footer-contact .prefooter-wrapper .prefooter-bloc:nth-child(1) h3::before{
@@ -1006,7 +1018,8 @@ html{
 @media screen and (max-width: 360px){
     .refonte .relive-show h2{
         font-size:3.4rem !important;
-        line-height:3.8rem !important
+        line-height:3.8rem !important;
+        text-align:center
     }
 }
 .refonte .relive-show h2::before{
