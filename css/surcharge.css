@@ -216,7 +216,7 @@ html{
     color:#2D2F30;
     padding:4rem 14rem
 }
-@media screen and (max-width: 360px){
+@media screen and (max-width: 480px){
     .refonte .edito-footer{
         padding:3.5rem !important
     }
@@ -498,12 +498,11 @@ html{
 }
 @media screen and (max-width: 480px){
     .refonte .landing .landing-content h1{
-        font-size:4.4rem
+        font-size:2.4rem
     }
 }
 @media screen and (max-width: 360px){
     .refonte .landing .landing-content h1{
-        font-size:2.4rem;
         margin-top:0 !important
     }
 }
@@ -659,11 +658,7 @@ html{
 @media screen and (max-width: 480px){
     .refonte .global-testimonials{
         flex-direction:column;
-        align-items:center
-    }
-}
-@media screen and (max-width: 360px){
-    .refonte .global-testimonials{
+        align-items:center;
         padding-bottom:0 !important
     }
 }
@@ -741,11 +736,7 @@ html{
 }
 @media screen and (max-width: 480px){
     .refonte .footer-contact .prefooter-wrapper .prefooter-bloc{
-        width:100%
-    }
-}
-@media screen and (max-width: 360px){
-    .refonte .footer-contact .prefooter-wrapper .prefooter-bloc{
+        width:100%;
         border-bottom:1px solid #e8e8e8
     }
 }
