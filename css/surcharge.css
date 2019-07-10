@@ -651,6 +651,11 @@ html{
         align-items:center
     }
 }
+@media screen and (max-width: 360px){
+    .refonte .global-testimonials{
+        padding-bottom:0 !important
+    }
+}
 .refonte .temoignages-visiteurs,.refonte .temoignages-exposants{
     max-width:50%;
     display:flex;
