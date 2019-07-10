@@ -409,12 +409,17 @@ html{
 }
 @media screen and (max-width: 435px){
     .refonte .landing{
-        min-height:75rem
+        min-height:78rem
+    }
+}
+@media screen and (max-width: 405px){
+    .refonte .landing{
+        min-height:80rem !important
     }
 }
 @media screen and (max-width: 360px){
     .refonte .landing{
-        min-height:80rem !important
+        min-height:85rem !important
     }
 }
 .refonte .landing .container-landing{
