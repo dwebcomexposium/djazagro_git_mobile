@@ -212,6 +212,9 @@ html{
 .refonte header .inside{
     z-index:999 !important
 }
+.refonte .icon-shopping_basket{
+    display:none
+}
 .refonte .edito-footer{
     color:#2D2F30;
     padding:4rem 14rem
@@ -246,6 +249,11 @@ html{
     text-transform:inherit;
     border-bottom:0.2rem solid #BA9347;
     z-index:2 !important
+}
+@media screen and (max-width: 480px){
+    .refonte h2{
+        border-bottom:none !important
+    }
 }
 .refonte .list-articles{
     background-repeat:repeat;
@@ -498,12 +506,9 @@ html{
 }
 @media screen and (max-width: 480px){
     .refonte .landing .landing-content h1{
-        font-size:2.4rem
-    }
-}
-@media screen and (max-width: 360px){
-    .refonte .landing .landing-content h1{
-        margin-top:0 !important
+        font-size:2.4rem;
+        margin-top:0 !important;
+        border-bottom:none !important
     }
 }
 .refonte .landing .landing-content h1::before{
@@ -521,6 +526,11 @@ html{
     -webkit-transform:translate(-50%, -50%) rotate(45deg);
     transform:translate(-50%, -50%) rotate(45deg);
     z-index:-5
+}
+@media screen and (max-width: 480px){
+    .refonte .landing .landing-content h1::before{
+        display:none !important
+    }
 }
 .refonte .landing .landing-content em{
     font-size:2.4rem;
@@ -893,7 +903,8 @@ html{
 @media screen and (max-width: 480px){
     .refonte .key-number .item h2::before{
         top:49px;
-        left:10px
+        left:10px;
+        display:none !important
     }
 }
 .refonte .key-number .item .item-pro .number::before{
@@ -1005,6 +1016,9 @@ html{
     .refonte .first-market .first-market-img{
         display:none
     }
+}
+.refonte .site-footer{
+    display:inherit !important
 }
 .refonte .relive-show{
     min-height:72.3rem;
