@@ -401,6 +401,11 @@ html{
     transform:translate(-50%, -50%) rotate(45deg);
     z-index:-5
 }
+@media screen and (max-width: 480px){
+    .refonte .list-articles .main-title-with-link h2.la-main-title::before{
+        display:none !important
+    }
+}
 .refonte .landing{
     background-image:url("/theme/djazagro_git_mobile/img/background-landing.jpg");
     background-repeat:no-repeat;
@@ -902,8 +907,6 @@ html{
 }
 @media screen and (max-width: 480px){
     .refonte .key-number .item h2::before{
-        top:49px;
-        left:10px;
         display:none !important
     }
 }
@@ -998,6 +1001,11 @@ html{
     transform:translate(-50%, -50%) rotate(45deg);
     z-index:-5
 }
+@media screen and (max-width: 480px){
+    .refonte .first-market .first-market-content h2::before{
+        display:none !important
+    }
+}
 .refonte .first-market .first-market-content p{
     font-family:"lato-light",sans-serif;
     font-size:1.6rem;
@@ -1042,13 +1050,6 @@ html{
         max-width:30rem
     }
 }
-@media screen and (max-width: 360px){
-    .refonte .relive-show h2{
-        font-size:3.4rem !important;
-        line-height:3.8rem !important;
-        text-align:center
-    }
-}
 .refonte .relive-show h2::before{
     content:'';
     display:block;
@@ -1067,13 +1068,7 @@ html{
 }
 @media screen and (max-width: 480px){
     .refonte .relive-show h2::before{
-        top:173px;
-        left:18%
-    }
-}
-@media screen and (max-width: 360px){
-    .refonte .relive-show h2::before{
-        left:48% !important
+        display:none !important
     }
 }
 .refonte .relive-show .container-video{
