@@ -713,6 +713,12 @@ html {
    margin-right: 2.2rem
 }
 
+@media screen and (max-width: 768px) {
+   .refonte .landing .landing-content a:nth-child(4) {
+      margin-bottom: 2rem !important
+   }
+}
+
 @media screen and (max-width: 480px) {
    .refonte .landing .landing-content a:nth-child(4) {
       margin-right: 0;
@@ -941,6 +947,29 @@ html {
    display: flex;
    flex-direction: column;
    justify-content: center
+}
+
+.refonte .temoignages-visiteurs .la-slider,
+.refonte .temoignages-exposants .la-slider {
+   background-color: inherit !important
+}
+
+.refonte .temoignages-visiteurs .la-slider .slider-content article.la-item .la-item-content,
+.refonte .temoignages-exposants .la-slider .slider-content article.la-item .la-item-content {
+   background: inherit !important;
+   display: flex !important;
+   flex-direction: column !important
+}
+
+.refonte .temoignages-visiteurs .la-slider .slider-content article.la-item .la-item-content .la-item-title,
+.refonte .temoignages-exposants .la-slider .slider-content article.la-item .la-item-content .la-item-title {
+   order: 2 !important
+}
+
+.refonte .temoignages-visiteurs .la-slider .slider-content article.la-item .la-item-content .la-item-desc,
+.refonte .temoignages-exposants .la-slider .slider-content article.la-item .la-item-content .la-item-desc {
+   display: block !important;
+   order: 1 !important
 }
 
 .refonte .temoignages-visiteurs .slider-pagin-nb,
