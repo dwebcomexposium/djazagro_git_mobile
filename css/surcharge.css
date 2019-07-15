@@ -242,7 +242,7 @@ html {
 
 @media screen and (max-width: 360px) {
    .refonte .btn {
-      padding: 1.2rem 3rem 1.4rem 1.2rem !important;
+      padding: 1.2rem 5rem 1.4rem 1.2rem !important;
       font-size: 1.2rem !important
    }
 }
@@ -355,8 +355,16 @@ html {
    display: none
 }
 
-.refonte .refonte header.site-banner .inside .site-banner-event .site-banner-date {
-   text-align: left !important
+@media screen and (max-width: 360px) {
+   .refonte .refonte header.site-banner .inside .site-banner-event {
+      min-height: 16rem !important
+   }
+}
+
+@media screen and (max-width: 360px) {
+   .refonte .refonte header.site-banner .inside .site-banner-event .site-banner-date {
+      text-align: inherit !important
+   }
 }
 
 .refonte .date-place {
