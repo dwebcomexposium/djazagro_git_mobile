@@ -1495,7 +1495,7 @@ html {
 
 @media screen and (max-width: 480px) {
    .refonte .relive-show .container-video {
-      width: 30rem
+      width: 30rem !important
    }
 }
 
