@@ -420,7 +420,7 @@ html {
    z-index: 2 !important
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 768px) {
    .refonte h2 {
       border-bottom: none !important;
       font-size: 3.5rem !important
@@ -595,7 +595,7 @@ html {
    z-index: -5
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 768px) {
    .refonte .list-articles .main-title-with-link h2.la-main-title::before {
       display: none !important
    }
@@ -1203,7 +1203,7 @@ html {
    z-index: -5
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 768px) {
    .refonte .key-number .item h2::before {
       display: none !important
    }
@@ -1327,7 +1327,7 @@ html {
    z-index: -5
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 768px) {
    .refonte .first-market .first-market-content h2::before {
       display: none !important
    }
@@ -1424,7 +1424,7 @@ html {
    z-index: -5
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 768px) {
    .refonte .relive-show h2::before {
       display: none !important
    }
