@@ -355,9 +355,15 @@ html {
    display: none
 }
 
+@media screen and (max-width: 768px) {
+   .refonte .openCapTrigger {
+      display: none !important
+   }
+}
+
 @media screen and (max-width: 360px) {
    .refonte .logo-title {
-      width: 20rem
+      width: 20rem !important
    }
 }
 
@@ -695,7 +701,10 @@ html {
 
 @media screen and (max-width: 768px) {
    .refonte .landing .landing-content {
-      min-width: 56rem !important
+      min-width: 56rem !important;
+      position: inherit;
+      width: 100%;
+      margin: 0 8rem
    }
 }
 
