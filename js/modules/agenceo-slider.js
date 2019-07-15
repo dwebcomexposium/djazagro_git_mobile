@@ -10,7 +10,7 @@
 ;(function ($) {
     
     // delete class cxp-swiper for mobile device
-    $('.cxp-swiper').removeClass('cxp-swiper').addClass('ao-slider');
+    // $('.cxp-swiper').removeClass('cxp-swiper').addClass('ao-slider');
 
     // Reads plugin settings from HTML data-* attributes (camelCase)
     var slider_config = $('.la-slider').data();
