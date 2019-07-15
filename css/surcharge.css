@@ -675,6 +675,12 @@ html {
    }
 }
 
+@media screen and (max-width: 768px) {
+   .refonte .landing .landing-content {
+      min-width: 56rem !important
+   }
+}
+
 @media screen and (max-width: 480px) {
    .refonte .landing .landing-content {
       display: flex;
@@ -1440,6 +1446,12 @@ html {
    display: flex;
    justify-content: center;
    align-items: center
+}
+
+@media screen and (max-width: 768px) {
+   .refonte .relive-show .container-video {
+      width: 50rem !important
+   }
 }
 
 @media screen and (max-width: 480px) {
