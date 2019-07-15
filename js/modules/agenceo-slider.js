@@ -7,7 +7,7 @@
  @last-update: 2016-07-12
  */
 
-;(function ($) {
+/* ;(function ($) {
     
     // delete class cxp-swiper for mobile device
     // $('.cxp-swiper').removeClass('cxp-swiper').addClass('ao-slider');
@@ -36,4 +36,4 @@
         speed: config.speed
     });
 
-})(jQuery);
+})(jQuery); */
