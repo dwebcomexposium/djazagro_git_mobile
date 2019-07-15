@@ -943,7 +943,6 @@ html {
 
 .refonte .block-page.list-articles.visiteurs,
 .refonte .block-page.list-articles.exposants {
-   max-width: 50%;
    display: flex;
    flex-direction: column;
    justify-content: center
