@@ -665,6 +665,13 @@ html {
    margin: 0 auto
 }
 
+@media screen and (max-width: 768px) {
+   .refonte .landing .container-landing {
+      justify-content: center !important;
+      width: 100% !important
+   }
+}
+
 @media screen and (max-width: 480px) {
    .refonte .landing .container-landing {
       width: inherit !important
@@ -688,7 +695,7 @@ html {
    .refonte .landing .landing-content {
       min-width: 56rem !important;
       position: inherit !important;
-      width: 100% !important;
+      width: 75% !important;
       margin: 0 8rem !important;
       margin: 0 2rem !important;
       left: inherit !important
