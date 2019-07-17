@@ -209,6 +209,10 @@ html{
 .site-footer{
     display:none
 }
+.front #zone1 .quicklinks{
+    margin:0 !important;
+    padding:0 !important
+}
 .front #zone1 .block.block-small.quicklinks ul{
     border-top:none;
     border-bottom:none;
@@ -221,7 +225,9 @@ html{
     justify-content:center
 }
 .front #zone1 .block.block-small.quicklinks ul .linkid755724{
-    padding:0 !important
+    padding:0 !important;
+    display:flex !important;
+    justify-content:center !important
 }
 .front #zone1 .block.block-small.quicklinks ul .linkid755724 a{
     border:3px solid #BA9347;
@@ -236,7 +242,8 @@ html{
     padding:1.7rem 5.3rem 1.7rem 1.7rem !important;
     transition:all .2s ease;
     display:flex;
-    justify-content:center
+    justify-content:center;
+    max-width:23rem
 }
 .front #zone1 .block.block-small.quicklinks ul .linkid755724 a::after{
     content:url(/theme/djazagro_git_mobile/img/arrow-white.svg);
@@ -244,7 +251,9 @@ html{
     right:2rem
 }
 .front #zone1 .block.block-small.quicklinks ul .linkid755724 a .txt-btn{
-    font-size:1.5rem
+    font-size:1.5rem;
+    padding:0 !important;
+    color:white !important
 }
 @media screen and (max-width: 768px){
     .front .block-page.edito .inside h2{
