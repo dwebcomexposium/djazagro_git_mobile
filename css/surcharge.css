@@ -1557,7 +1557,8 @@ html {
    }
 }
 
- //AJOUT BTN TEMOIGNAGES #zone1 {
+
+#zone1 {
      .block.block-small.quicklinks {
          ul {
              border-top: none;
