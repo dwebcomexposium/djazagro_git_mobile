@@ -262,6 +262,11 @@ html{
     padding:0 !important;
     color:white !important
 }
+@media screen and (max-width: 360px){
+    .front #zone1 .block.block-small.quicklinks ul .linkid755724 a .txt-btn{
+        font-size:1.2rem !important
+    }
+}
 @media screen and (max-width: 768px){
     .front .block-page.edito .inside h2{
         padding-top:2rem !important
