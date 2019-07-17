@@ -243,7 +243,14 @@ html{
     transition:all .2s ease;
     display:flex;
     justify-content:center;
-    max-width:23rem
+    max-width:27rem;
+    white-space:nowrap
+}
+@media screen and (max-width: 360px){
+    .front #zone1 .block.block-small.quicklinks ul .linkid755724 a{
+        padding:1.2rem 5rem 1.4rem 1.2rem !important;
+        font-size:1.2rem !important
+    }
 }
 .front #zone1 .block.block-small.quicklinks ul .linkid755724 a::after{
     content:url(/theme/djazagro_git_mobile/img/arrow-white.svg);
