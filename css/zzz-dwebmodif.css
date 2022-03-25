@@ -195,3 +195,12 @@ div#container-myselection .mysel-type-container {
     background-color: #755d2e;
     border-color: #ba9347;
 }
+
+/******** New Catalogue ***********/
+.catalogue.main-navigation{
+  width: 1448px;
+}
+
+#catalog-v2 .bgTint {
+    background-color: #6d2361!important;
+}
