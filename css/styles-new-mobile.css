@@ -132,7 +132,7 @@ html{
     color:white
 }
 .front .btn.btn-bg-gold::after{
-    content:url(/theme/djazagro_git_mobile/img/arrow-white.svg);
+    content:url(img/arrow-white.svg);
     position:absolute;
     right:2rem
 }
@@ -150,7 +150,7 @@ html{
     position:relative
 }
 .front .btn.btn-bg-white.btn-txt-purple::after{
-    content:url(/theme/djazagro_git_mobile/images/ico-arrow-blue.svg);
+    content:url(images/ico-arrow-blue.svg);
     position:absolute;
     right:2rem
 }
@@ -159,7 +159,7 @@ html{
     position:relative
 }
 .front .btn.btn-bg-white.btn-txt-green::after{
-    content:url(/theme/djazagro_git_mobile/images/ico-arrow-blue.svg);
+    content:url(images/ico-arrow-blue.svg);
     position:absolute;
     right:2rem
 }
@@ -175,7 +175,7 @@ html{
     position:relative
 }
 .front .btn.btn-border.btn-txt-gold::after{
-    content:url(/theme/djazagro_git_mobile/img/arrow-gold.svg);
+    content:url(img/arrow-gold.svg);
     position:absolute;
     right:2rem
 }
@@ -208,7 +208,7 @@ html{
 .front #zone1 .block.block-small.quicklinks ul{
     border-top:none;
     border-bottom:none;
-    background-image:url(/theme/djazagro_git_mobile/img/paper_fibers.png);
+    background-image:url(img/paper_fibers.png);
     background-repeat:repeat;
     background-size:contain;
     margin:0 !important;
@@ -245,7 +245,7 @@ html{
     }
 }
 .front #zone1 .block.block-small.quicklinks ul .linkid755724 a::after{
-    content:url(/theme/djazagro_git_mobile/img/arrow-white.svg);
+    content:url(img/arrow-white.svg);
     position:absolute;
     right:2rem
 }
@@ -722,7 +722,7 @@ html{
     font-size:0.6rem;
     color:#8c8b8b;
     line-height:1;
-    background:url(/theme/djazagro_git_mobile/img/logo_fr.png) left top no-repeat;
+    background:url(img/logo_fr.png) left top no-repeat;
     background-size:contain;
     border:0 none
 }
@@ -777,7 +777,7 @@ html{
     display:flex;
     position:relative;
     padding-bottom:14rem;
-    background-image:url(/theme/djazagro_git_mobile/img/paper_fibers.png);
+    background-image:url(img/paper_fibers.png);
     background-repeat:repeat;
     background-size:contain
 }
