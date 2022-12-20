@@ -202,5 +202,9 @@ div#container-myselection .mysel-type-container {
 }
 
 #catalog-v2 .bgTint {
-    background-color: #6d2361!important;
+    background-color: #DEC388!important;
 }
+
+#catalog-v2 .textPrimary; #catalog-v2 .textAccent {
+    color: #212E5A!important; }
+
